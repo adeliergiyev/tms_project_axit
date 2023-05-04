@@ -1,0 +1,78 @@
+/*CSS SECTION TABS*/
+
+.tabs{
+    /*height: 689px;*/
+    padding: 0 15px;
+    margin-bottom: 110px;
+}
+.tabs__container{
+    text-align: left;
+}
+.tabs__btns{
+    font-size: 0px;
+}
+.tabs__btn{
+    max-width: 184px;
+    width: 100%;
+    min-height: 40px;
+    border-radius: 5px 5px 0 0;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #fff;
+    color: #333333;
+    border: 1px solid transparent;
+}
+
+.tabs__btn_active{
+    border: 1px solid #C6CBCD;
+    border-bottom: 0;
+    box-shadow: 0px 5px 0px -1px rgba(255,255,255,1)
+}
+.tab{
+    border: 1px solid #C6CBCD;
+    text-align: center;
+}
+.tab__info{
+    display: inline-block;
+    max-width: 60%;
+    padding: 25px 30px 25px 100px;
+    vertical-align: middle;
+    text-align: left;
+}
+.tab__title{
+    font-family: 'Open Sans';
+    font-size: 30px;
+    margin-bottom: 57px;
+}
+.tab__text{
+    margin-bottom: 26px;
+}
+p.tab__text:last-of-type{
+    margin-bottom: 0;
+}
+.tab__btn{
+    max-width: 270px;
+    width: 100%;
+    background: #EC7979;
+    color: #FFFFFF;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    border: 1px solid transparent;
+    margin-top: 84px;
+    line-height: 25px;
+    padding: 17px;
+}
+.tab__pictire{
+    display: inline-block;
+    max-width: 39%;
+    /* min-height: 500px;  */
+    vertical-align: middle;
+}
+.tab__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

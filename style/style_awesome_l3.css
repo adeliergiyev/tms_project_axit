@@ -1,0 +1,94 @@
+header{
+    height: 75px;
+}
+footer{
+    height: 164px;
+}
+section{
+    padding: 0 15px;
+}
+.wrap_banner{
+    height: 1026px;
+}
+
+/*CSS SECTION AWESAOME*/
+
+.benefits{
+    /*height: 689px;*/
+    padding: 0 15px;
+    margin-bottom: 110px
+}
+.container{
+    max-width: 1170px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+.benefits__title{
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 36px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.benefits__separator{
+    border-bottom: 1px solid #EC7979;
+    width: 170px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 40px;
+}
+.benefits__text{
+    color: #86878B;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 90px;
+}
+.benefits__wrap{
+    margin: 0 auto;
+    text-align: center;
+    padding-left: 12px;
+}
+.benefit{
+    max-width: 370px;
+    min-width: 200px;
+    display: inline-block;
+    margin: 0 11px 35px auto;
+}
+.benefit:last-child{
+    margin-bottom: 0;
+}
+.benefit__wrap{
+    border: 1px solid #EC7979;
+    width: 92px;
+    height: 92px;
+    border-radius: 50px;
+    text-align: center;
+    margin: 0 auto 24px;
+    padding: 23px 0 0;
+}
+.benefit__img{
+    width: 65%;
+    height: 65%;
+    margin: 0 auto;
+    object-fit: contain;
+}
+.benefit_title{
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 26px;
+}
+
+/*CSS SECTION PRICES*/
+
+.wrap_prices{
+    height: 900px;;
+}
+.wrap_customers{
+    height: 760px;
+}
+.wrap_download{
+    height: 425px;
+}
+.wrap_contacts{
+    height: 690px;
+}
