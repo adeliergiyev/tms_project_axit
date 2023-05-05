@@ -15,7 +15,7 @@ section{
 
 .benefits{
     /*height: 689px;*/
-    padding: 0 15px;
+    /* padding: 0 15px; */
     margin-bottom: 100px
 }
 .container{
@@ -23,6 +23,7 @@ section{
     width: 100%;
     text-align: center;
     margin: 0 auto;
+    padding: 0 15px;
 }
 .benefits__title{
     margin-bottom: 40px;
@@ -44,13 +45,11 @@ section{
 }
 .benefits__wrap{
     margin: 0 auto;
-    /* text-align: center; */
-    padding-left: 12px;
 }
 .benefit{
     max-width: 370px;
     display: inline-block;
-    margin: 0 11px 10px 0;
+    margin-bottom: 10px;
 }
 .benefit:last-child{
     margin-bottom: 0;
