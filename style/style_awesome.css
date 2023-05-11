@@ -4,9 +4,6 @@ header{
 footer{
     height: 164px;
 }
-section{
-    padding: 0 15px;
-}
 .wrap_banner{
     height: 1026px;
 }
@@ -14,28 +11,30 @@ section{
 /*CSS SECTION AWESAOME*/
 
 .benefits{
-    /*height: 689px;*/
-    /* padding: 0 15px; */
-    margin-bottom: 100px
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
 }
 .container{
     max-width: 1170px;
     width: 100%;
-    text-align: center;
-    margin: 0 auto;
     padding: 0 15px;
+    text-align: center;
+}
+.benefits__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .benefits__title{
     margin-bottom: 40px;
     font-weight: 400;
     font-size: 36px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .benefits__separator{
     border-bottom: 1px solid #EC7979;
     width: 170px;
     margin: 0 auto 40px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .benefits__text{
     color: #86878B;
@@ -44,34 +43,34 @@ section{
     margin-bottom: 92px;
 }
 .benefits__wrap{
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 13px;
 }
 .benefit{
     max-width: 370px;
-    display: inline-block;
-    margin-bottom: 10px;
-}
-.benefit:last-child{
-    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 24px;
 }
 .benefit__wrap{
-    border: 1px solid #EC7979;
+    order: 1px solid #EC7979;
     width: 92px;
     height: 92px;
     border-radius: 50px;
-    /* text-align: center; */
-    margin: 0 auto 24px auto;
-    padding: 23px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .benefit__img{
     width: 65%;
     height: 65%;
-    /* margin: 0 auto; */
     object-fit: contain;
 }
 .benefit_title{
     font-family: 'Open Sans', sans-serif;
-    margin-bottom: 26px;
 }
 
 /*CSS SECTION PRICES*/
