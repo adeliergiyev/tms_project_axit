@@ -1,15 +1,12 @@
 /*CSS SECTION TABS*/
 
 .tabs{
-    /*height: 689px;*/
-    /* padding: 0 15px; */
     margin-bottom: 110px;
-}
-.tabs__container{
-    text-align: left;
 }
 .tabs__btns{
     font-size: 0px;
+    display: flex;
+    justify-content: start;
 }
 .tabs__btn{
     max-width: 184px;
@@ -31,14 +28,12 @@
 }
 .tab{
     border: 1px solid #C6CBCD;
-    text-align: center;
+    display: flex;
 }
 .tab__info{
-    display: inline-block;
-    max-width: 60%;
+    text-align: left; 
+    min-width: 350px;
     padding: 25px 30px 25px 100px;
-    vertical-align: middle;
-    text-align: left;
 }
 .tab__title{
     font-family: 'Open Sans';
@@ -47,6 +42,9 @@
 }
 .tab__text{
     margin-bottom: 26px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
 }
 p.tab__text:last-of-type{
     margin-bottom: 0;
@@ -66,13 +64,11 @@ p.tab__text:last-of-type{
     padding: 17px;
 }
 .tab__pictire{
-    display: inline-block;
-    max-width: 39%;
-    /* min-height: 500px;  */
-    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 .tab__img{
-    width: 100%;
-    height: 100%;
     object-fit: cover;
 }
