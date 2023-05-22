@@ -15,12 +15,6 @@ footer{
     display: flex;
     justify-content: center;
 }
-.container{
-    max-width: 1170px;
-    width: 100%;
-    padding: 0 15px;
-    text-align: center;
-}
 .benefits__container{
     display: flex;
     flex-direction: column;
@@ -30,11 +24,6 @@ footer{
     margin-bottom: 40px;
     font-weight: 400;
     font-size: 36px;
-}
-.benefits__separator{
-    border-bottom: 1px solid #EC7979;
-    width: 170px;
-    margin: 0 auto 40px;
 }
 .benefits__text{
     color: #86878B;
@@ -75,9 +64,6 @@ footer{
 
 /*CSS SECTION PRICES*/
 
-.wrap_prices{
-    height: 900px;;
-}
 .wrap_customers{
     height: 760px;
 }
