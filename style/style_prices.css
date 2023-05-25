@@ -35,7 +35,7 @@
 .prices__item_top{
     list-style:none;
     background: #333333;
-    border: 2px solid #F5F5F5;
+    border-bottom: 2px solid #F5F5F5;
     color: #FFFFFF;
 }
 .prices__item_top:nth-child(1){
@@ -61,6 +61,6 @@
     font-size: 18px;
     padding: 16px;
     color: #86878B;
-    border: 2px solid #F5F5F5;
+    border-bottom: 2px solid #F5F5F5;
     text-transform: capitalize;
 }
