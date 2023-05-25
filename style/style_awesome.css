@@ -11,7 +11,7 @@ footer{
 /*CSS SECTION AWESAOME*/
 
 .benefits{
-    margin-bottom: 107px;
+    padding: 59px 0 107px 0;
     display: flex;
     justify-content: center;
 }
