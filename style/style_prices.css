@@ -42,24 +42,28 @@
     font-family: 'Open Sans';
     font-weight: 700;
     font-size: 24px;
-    padding: 18px;
+    line-height: 33px;
+    padding: 13px;
 }
 .prices__item_top:nth-child(2){
     font-weight: 700;
     font-size: 36px;
-    padding: 32px;
+    line-height: 42px;
+    padding: 29px;
 }
 .prices__item_top:nth-child(3){
     color: #ffffff80;
     font-weight: 400;
     font-size: 18px;
-    padding: 16px;
+    line-height: 21px;
+    padding: 14px;
 }
 .prices__item{
     list-style:none;
     font-weight: 400;
     font-size: 18px;
-    padding: 16px;
+    line-height: 21px;
+    padding: 14px;
     color: #86878B;
     border-bottom: 2px solid #F5F5F5;
     text-transform: capitalize;
