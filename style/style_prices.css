@@ -6,9 +6,15 @@
 }
 .prices__title{
     text-transform: uppercase;
-    margin-bottom: 40px;
     font-weight: 400;
     font-size: 36px;
+}
+.prices__title::after{
+    content: "";
+    display: block;
+    border-bottom: 1px solid #EC7979;
+    width: 170px;
+    margin: 40px auto 40px;
 }
 .prices__text{
     color: #86878B;

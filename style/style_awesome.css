@@ -21,9 +21,15 @@ footer{
     justify-content: center;
 }
 .benefits__title{
-    margin-bottom: 40px;
     font-weight: 400;
     font-size: 36px;
+}
+.benefits__title::after{
+    content: "";
+    display: block;
+    border-bottom: 1px solid #EC7979;
+    width: 170px;
+    margin: 40px auto 40px;
 }
 .benefits__text{
     color: #86878B;
