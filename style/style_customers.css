@@ -1,3 +1,13 @@
+.customers{
+    padding: 110px 0 108px 0;
+    display: flex;
+    justify-content: center;
+}
+.customers__title{
+    font-weight: 400;
+    font-size: 36px;
+    text-transform: uppercase;
+}
 .customers__title::after{
     content: "";
     display: block;
@@ -5,15 +15,83 @@
     width: 170px;
     margin: 40px auto 40px;
 }
+.customer_info__text{
+    background: #E2E2E2;
+    border-radius: 10px;
+    color: #86878B;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 38px 25px;
+    position: relative;
+}
 .customer_info__text::after{
     content: "";
     width: 0;
-	height: 0;
-	border-left: 15px solid transparent;
-	border-right: 15px solid transparent;
-	border-top: 30px solid #E2E2E2;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 20px solid #E2E2E2;
+    position: absolute;
+    bottom: -20px;
+    left: 70px;
 }
 .customer_info__title::after{
     content: 'Manager';
     display: block;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+}
+.customers__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.customers__text{
+    color: #86878B;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 92px;
+}
+.customers__wrap{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.customer_info{
+    max-width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 66px;
+}
+.customer_info__item{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.customer_info__wrap{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+.customer_info__img{
+    width: 100%;
+}
+.customer_info__title{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    position: relative;
 }
