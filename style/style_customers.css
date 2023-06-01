@@ -7,13 +7,18 @@
     font-weight: 400;
     font-size: 36px;
     text-transform: uppercase;
+    position: relative;
+    margin-bottom: 80px;
 }
 .customers__title::after{
     content: "";
     display: block;
     border-bottom: 1px solid #EC7979;
     width: 170px;
-    margin: 40px auto 40px;
+    position: absolute;
+    left: 50%;
+    top: calc(100% + 40px);
+    transform: translateX(-50%);
 }
 .customer_info__text{
     background: #E2E2E2;
@@ -32,7 +37,7 @@
     border-right: 15px solid transparent;
     border-top: 20px solid #E2E2E2;
     position: absolute;
-    bottom: -20px;
+    top: 100%;
     left: 70px;
 }
 .customer_info__title::after{
