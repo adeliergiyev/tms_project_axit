@@ -18,7 +18,7 @@ footer{
 .benefits__container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
 }
 .benefits__title{
     font-weight: 400;
@@ -44,7 +44,7 @@ footer{
 }
 .benefits__wrap{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
     gap: 13px;
 }

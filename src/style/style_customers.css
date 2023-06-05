@@ -40,7 +40,7 @@
     top: 100%;
     left: 70px;
 }
-.customer_info__title::after{
+/* .customer_info__title::after{
     content: 'Manager';
     display: block;
     font-family: 'Raleway';
@@ -50,11 +50,11 @@
     position: absolute;
     bottom: -4px;
     left: 0;
-}
+} */
 .customers__container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
 }
 .customers__text{
     color: #86878B;
@@ -84,13 +84,14 @@
     width: 70px;
     height: 70px;
     border-radius: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-right: 30px;
+    overflow: hidden;
 }
 .customer_info__img{
     width: 100%;
+}
+.customer_info__personal{
+
 }
 .customer_info__title{
     font-family: 'Open Sans';
@@ -98,5 +99,13 @@
     font-weight: 700;
     font-size: 24px;
     line-height: 30px;
-    position: relative;
+    /* position: relative; */
+    margin-bottom: 18px;
+}
+.customer_info__position{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: left;
 }
