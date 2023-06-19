@@ -1,0 +1,28 @@
+.download{
+    background-image: url(../media/background_download.png);
+    object-fit:fill;
+    min-height: 425px;
+}
+.download__containerP{
+
+}
+.download__title{
+    color: #FFFFFF;
+    position: relative;
+}
+.download__title::after{
+    content: "";
+    display: block;
+    border-bottom: 1px solid #FFFFFF;
+    width: 170px;
+    position: absolute;
+    left: 50%;
+    top: calc(100% + 40px);
+    transform: translateX(-50%);
+}
+.download__text{
+
+}
+.download__btn{
+    color: #FFFFFF;
+}
