@@ -1,0 +1,34 @@
+.socialmedia{
+    background: #F8EFEF;
+    padding-top: 31px;
+}
+.socialmedia__container{
+    display: flex;
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    /* text-align: center; */
+    margin: 0 auto 18px auto;
+
+}
+.socialmedia__description{
+
+}
+.socialmedia__title{
+
+}
+.socialmedia__text{
+    width: 470px;
+}
+.socialmedia__icons{
+    display: flex;
+}
+.socialmedia__wrap{
+
+}
+.socialmedia__link{
+
+}
+.socialmedia__icon{
+
+}
