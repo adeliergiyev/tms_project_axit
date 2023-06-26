@@ -1,7 +1,7 @@
 .socialmedia{
     display: flex;
     background: #F8EFEF;
-    padding: 31px 0 18px 0;
+    padding: 32px 0 18px 0;
     justify-content: center;
 }
 .socialmedia__container{
@@ -30,6 +30,7 @@
     display: flex;
     column-gap: 30px;
     justify-content: space-around;
+    padding: 3px 0 0 0;
 }
 .socialmedia__link{
     width: 70px;
@@ -41,4 +42,5 @@
 .socialmedia__icon{
     width: 100%;
     height: 100%;
+    object-fit: contain;
 }

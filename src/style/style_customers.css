@@ -54,8 +54,7 @@
 .customers__wrap{
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    gap: 30px;
+    column-gap: 30px;
 }
 .customer_info{
     max-width: 360px;
