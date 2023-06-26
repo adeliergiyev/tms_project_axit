@@ -37,9 +37,7 @@ footer{
 }
 .benefits__wrap{
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 13px;
+    column-gap: 30px;
 }
 .benefit{
     max-width: 370px;
@@ -49,7 +47,7 @@ footer{
     row-gap: 24px;
 }
 .benefit__wrap{
-    order: 1px solid #EC7979;
+    border: 1px solid #EC7979;
     width: 92px;
     height: 92px;
     border-radius: 50px;
@@ -64,16 +62,4 @@ footer{
 }
 .benefit_title{
     font-family: 'Open Sans', sans-serif;
-}
-
-/*CSS SECTION PRICES*/
-
-.wrap_customers{
-    height: 760px;
-}
-.wrap_download{
-    height: 425px;
-}
-.wrap_contacts{
-    height: 690px;
 }

@@ -1,23 +1,26 @@
 header{
     background: #000000;
+    padding: 22px 0 22px 0;
+}
+.header__container{
     display: flex;
     justify-content: space-between;
-    padding: 22px 122px 22px 152px;
+    margin: 0 auto;
 }
-.logo__wrap{
+.logo__img{
     max-width: 87px;
     max-height: 31px;
 }
-.logo__img{
-    object-fit: cover;
+.header__navigation{
+    display: flex;
 }
 .header__menu{
     display: flex;
-
+    align-items: center;
 }
 .header__item{
     width: 114px;
-    max-height: 19px;
+    height: 19px;
     display: flex;
     justify-content: center;
     align-items: center;
