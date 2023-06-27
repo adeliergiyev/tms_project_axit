@@ -7,6 +7,8 @@
     background-size: cover;
     position: relative;
     padding: 306px 0 285px 0; 
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .banner::after{
     content: "";
