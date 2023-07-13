@@ -60,3 +60,13 @@
     background: none;
     border: 1px solid #FFFFFF;
 }
+.download__btn:hover{
+    cursor: pointer;
+    color: #EC7979;
+    border: 1px solid #EC7979;
+}
+.download__btn:active{
+    background-color: #AB4949;
+    color: #fff;
+    border: 1px solid #AB4949;
+}
