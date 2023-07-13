@@ -113,18 +113,22 @@
 .form__inputs{
     display: flex;
     flex-direction: column;
-    row-gap: 33px;
+    row-gap: 20px;
     align-items: center;
 }
 .form_input{
     width: 370px;
-    height: 40px;
+    /* height: 80px; */
     color: #BDBDBD;
     font-size: 14px;
     font-family: Open Sans;
-    padding-bottom: 20px;
+    padding: 16px 0;
     border: none;
     border-bottom: 1px solid #BDBDBD;
+    /* border: 2px solid black; */
+}
+.form_input::placeholder{
+    color: #BDBDBD;
 }
 .banner__form_button{
     border: none;
