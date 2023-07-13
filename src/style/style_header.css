@@ -1,11 +1,20 @@
 header{
     background: #000000;
-    padding: 22px 0 22px 0;
+    /* padding: 22px 0 22px 0; */
+    min-height: 75px;
+    display: flex;
+    align-items: center;
 }
 .header__container{
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
+    min-height: 75px;
+}
+.logo__link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .logo__img{
     max-width: 87px;
@@ -20,7 +29,7 @@ header{
 }
 .header__item{
     width: 114px;
-    height: 19px;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,4 +45,10 @@ header{
 }
 .header__link:hover{
     cursor: pointer;
+}
+.header__item:hover{
+    background-color: #EC7979;
+}
+.header__item:active{
+    background-color: #AB4949;;
 }
