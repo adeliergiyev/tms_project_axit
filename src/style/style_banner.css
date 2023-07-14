@@ -118,14 +118,12 @@
 }
 .form_input{
     width: 370px;
-    /* height: 80px; */
     color: #BDBDBD;
     font-size: 14px;
     font-family: Open Sans;
     padding: 16px 0;
     border: none;
     border-bottom: 1px solid #BDBDBD;
-    /* border: 2px solid black; */
 }
 .form_input::placeholder{
     color: #BDBDBD;

@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="style/style_header.css" />
     <link rel="stylesheet" href="style/style_banner.css" />
     <link rel="stylesheet" href="style/style_socialmedia.css" />
+    <link rel="stylesheet" href="style/style_contactus.css" />
     <title>AXIT - Main Page (tms_homework_l4)</title>
 </head>
 <body>
@@ -272,8 +273,25 @@
         </section>
 <!---->
 
-        <section class="wrap_contacts">
-
+        <section class="contact-us">
+            <div class="container contact-us__container">
+            <h2 class="contact-us__title">contact us</h2>
+            <h5 class="contact-us__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+            <form action="#" class="contact-us__form">
+                <div class="contact-us__wrap">
+                    <div class="contact-us__fields">
+                        <input type="text" class="contact-us__field" name="Name" placeholder="Name">
+                        <input type="email" class="contact-us__field" name="Email" placeholder="Email">
+                        <input type="password" class="contact-us__field" name="Password" placeholder="Password">  
+                    </div>
+                    <div class="contact-us__fields">
+                        <textarea class="contact-us__field--message" placeholder="Message"></textarea>
+                    </div>
+                </div>
+                <div class="contact-us__button">
+                    <button type="submit" class="contact-us__btn">Send Message</button>
+                </div>
+            </form>
         </section>
     </main> 
     <footer>
