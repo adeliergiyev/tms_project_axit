@@ -75,6 +75,9 @@
     line-height: 21px;
     padding: 14px;
     color: #86878B;
-    border-bottom: 2px solid #F5F5F5;
+    border-bottom: 2px solid #F5F5F5; 
     text-transform: capitalize;
+}
+.prices__item:last-of-type{
+    border-bottom: none;
 }

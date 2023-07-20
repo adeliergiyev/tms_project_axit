@@ -1,7 +1,5 @@
 header{
     background: #000000;
-    /* padding: 22px 0 22px 0; */
-    min-height: 75px;
     display: flex;
     align-items: center;
 }
@@ -9,7 +7,6 @@ header{
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    min-height: 75px;
 }
 .logo__link{
     display: flex;
@@ -29,7 +26,6 @@ header{
 }
 .header__item{
     width: 114px;
-    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,6 +38,8 @@ header{
     line-height: 19px;
     color: #fff;
     text-decoration: none;
+    display: block;
+    padding: 22px 30px;
 }
 .header__link:hover{
     cursor: pointer;
